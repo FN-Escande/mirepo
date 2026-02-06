@@ -22,12 +22,13 @@ Crear una app móvil sencilla para registrar labores agrícolas en campo, con é
 - Personal / cuadrilla
 - Observaciones
 
-## Flujo propuesto
-1. Seleccionar lote y cultivo.
-2. Elegir tipo de labor.
-3. Completar tiempos, personal y notas.
-4. Adjuntar fotos (opcional) y ubicación (opcional).
-5. Guardar (sincronizar si hay conexión).
+## Cómo usarla (flujo simple)
+1. **Configurar catálogos**: cargar lotes, cultivos, personal e insumos una sola vez.
+2. **Crear una labor**: seleccionar lote y cultivo, luego elegir el tipo de labor.
+3. **Completar el registro**: ingresar tiempos, personal, insumos y observaciones.
+4. **Adjuntar evidencia**: agregar fotos, notas de voz y ubicación si aplica.
+5. **Guardar y sincronizar**: guardar localmente y sincronizar al tener internet.
+6. **Consultar reportes**: filtrar por lote, labor, periodo o trabajador.
 
 ## Consideraciones técnicas
 - **Plataforma**: Android inicialmente (más común en campo), con posibilidad de iOS.
@@ -37,5 +38,5 @@ Crear una app móvil sencilla para registrar labores agrícolas en campo, con é
 
 ## Próximos pasos
 - Validar campos obligatorios con usuarios.
-- Priorizar laboratorios más frecuentes.
+- Priorizar labores más frecuentes.
 - Definir backend y esquema de datos.
